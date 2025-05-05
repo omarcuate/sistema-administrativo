@@ -1,0 +1,76 @@
+.form-container input[type="text"] {
+    width: calc(50% - 15px);
+    margin-right: 30px;
+    margin: 25%;
+}
+
+.form-container input[type="text"]:nth-child(even) {
+    margin-right: 0;
+    margin: 30%;
+}
+
+.form-container input[type="text"]:nth-child(n+3) {
+    margin-top: 15px;
+}
+
+   .form-container label {
+    margin-bottom: 10px;
+    margin: 25%;
+}
+
+.form-container input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40%;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+}
+
+.form-container .regresar {
+    background-color: #f44336;
+}
+
+.form-container .regresar:hover {
+    background-color: #da190b;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.regresar{
+    background-color: #FFC300;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    
+    }
+
+ .regresar:hover{
+    background-color:#EEA600 ;
+}

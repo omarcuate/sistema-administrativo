@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.7s;
+    padding: 10px;
+    z-index: 10;
+    background: #8a2036;
+}
+
+header.abajo{
+    background: #8a2036;
+    padding: 10px 10px;
+}
+
+.navegacion{
+	width: auto;
+	margin-right: 50px;
+    margin-left: 30px;
+	background: rgba(255, 255, 255, 0);
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+    align-self: auto;
+}
+
+.menu > li > a{
+	display: flex;
+	padding: 10px 15px;
+    margin-top: 5px;
+	color: #ffffff;
+	font-family: Verdana;
+    font-size: 14px;
+	text-decoration: none;
+    border-radius: 10px;  
+}
+
+.menu li a:hover{
+    background: #56212f;
+	color: #ffffff;
+	transition: all .3s;
+}
+.menu2{
+    justify-content: right;
+}
+.menu2 > li{
+	position: relative;
+	display: inline-block;
+ 
+}
+.menu2 > li > a{
+	display: flex;
+	padding: 10px 15px;
+    margin-top: 5px;
+	color: #ffffff;
+	font-family: Verdana;
+    font-size: 14px;
+	text-decoration: none;
+}
+
+.menu2 li a:hover{
+    background:  #56212f;
+	color: #ffffff;
+	transition: all .3s;
+    border-radius: 10px;
+}
+.submenu{
+	position: absolute;
+    background: #BC955B;
+	width: 180%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+    z-index: 10;
+    box-shadow:0 0 10px 3px #b0ababd5;
+    border-radius: 9px;
+}
+.submenu li a{
+	display: block;
+	padding: 10px;
+	color: #fff;
+	font-family: 'verdana';
+    font-size: small;
+	text-decoration: none;
+    list-style: none;
+    margin-top: 9px;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*--Contenedor de la zona--*/
+.zona1{
+    width: auto;
+    height: auto;
+    margin: 40px;
+    padding: 20px;
+    margin-top: 12ch;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    position: relative;
+}
+/*--Efectos de la zona--*/
+.box4{
+    background-color: #ffffff;
+}
+
+.shadow4{
+    position:relative;
+}
+.shadow4{
+      box-shadow:0 9px 4px #BC955B, 0 0 20px #bc955b00 inset;
+}
+
+.shadow4:before, .shadow4:after{
+    position:absolute;
+    content:"";
+    top:14px;bottom:14px;left:0;right:0;
+    box-shadow:0 0 25px 3px #8a2036;
+    border-radius:100px/10px;
+    z-index:-1;
+}
+/*--fin de la zona--*/
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    padding: 3ch;
+
+}
+.icon-container {
+    margin: auto;
+    padding: 1ch;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap; /* Evita que los elementos se desplacen a la siguiente línea */
+}
+
+.icon-container div {
+    display: inline-block;
+    margin-right: 10px; /* Espacio entre las imágenes (ajusta según sea necesario) */
+}
+
+.icon1 {
+    width: 70px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: 70px;
+}
+
+.sqlbton{
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    padding: 3ch;
+    display: flex;
+    background-color: #8a2036; 
+    color: #fff;
+    width: 440px;
+    height: 70px;
+}
+
+.sqlbton:hover{
+    background-color: #BC955B;
+    filter: drop-shadow(0 0 10px rgba(0,0,0, .8) );
+}
+
+.icon2{
+    width: 70px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: 70px;
+}
+.sqlbton1{
+    background-color: #f5f2f300;
+    border: none;
+    margin: auto;
+    padding: 1ch;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap; 
+    margin-left: 850px;
+    margin-top: -70px;
+}
+
+.sqlbton1:hover{
+    filter: drop-shadow(0 0 10px rgba(0,0,0, .8) );
+}
+.cctsbtn{
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    padding: 3ch;
+    display: flex;
+    background-color: #8a2036; 
+    color: #fff;
+    width: 440px;
+    height: 70px;
+  
+}
+
+.cctsbtn:hover{
+    background-color:#BC955B;
+    filter: drop-shadow(0 0 10px rgba(0,0,0, .8) );
+}
+
+.botonera {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ejecutar:hover{
+    background-color:#BC955B;
+    filter: drop-shadow(0 0 10px rgba(0,0,0, .8) );
+}
+
+
+.ejecutar{
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    padding: 3ch;
+    display: flex;
+    background-color: #8a2036; 
+    color: #fff;
+    height: 70px;
+    width: calc(100%); /* Establece el ancho del botón, restando el espacio entre ellos */
+    margin-bottom: 30px; /* Espacio entre filas */
+    
+}

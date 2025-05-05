@@ -1,0 +1,72 @@
+  /* Estilos para el cuadro de contenido */
+  .content-box {
+    margin: 20px; /* Margen alrededor del contenido */
+    padding: 20px; /* Espaciado interno */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para efecto de elevación */
+    width: 250%;
+}
+
+.container {
+max-width: 210%;
+
+}
+
+
+.controls {
+margin-bottom: 20px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+border-radius: 10px; /* Agrega bordes redondeados a la tabla */
+overflow: hidden; /* Para evitar que los bordes redondeados se vean cortados */
+}
+th{
+background-color: #8a2036; /* Color rojo para la primera fila */
+color: #f2f2f2;
+}
+
+
+tr:first-child {
+border-top-left-radius: 10px; /* Redondear esquina superior izquierda */
+border-top-right-radius: 10px; /* Redondear esquina superior derecha */
+}
+
+th, td {
+border: 1px solid #ddd;
+padding: 8px;
+font-size: 12px;
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+.edit {
+  background-color: #5DADE2;
+  color: rgb(0, 0, 0);
+  padding: 8px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+.edit:hover{
+  background-color: #87bbde; 
+}
+.eliminar {
+  background-color: #DF0000 ;
+  color: white;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+.eliminar:hover{
+  background-color: #FF1919 ;
+}

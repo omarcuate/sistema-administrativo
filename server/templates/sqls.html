@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combertidor      -SQL-</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+
+  
+        <div>
+            <nav class="navegacion">
+                <ul class="menu">
+                    <li><a href="http://localhost/sist_v2/pages/index.php">Inicio</a></li>
+                    <li><a>Graficos</a>
+                        <ul class="submenu">
+                            <li><a href="http://localhost/sist_v2/pages/tablas.php"> Tablas</a></li>
+                            <li><a href="http://localhost/sist_v2/pages/men_graficas/graf.php"> Graficas</a></li>
+                        </ul>
+                    </li>
+                    <li><a>Funciones</a>
+                        <ul class="submenu">
+                            <li><a href="http://127.0.0.1:5000/"> Calculas Claves</a></li>
+                            <li><a href="http://127.0.0.1:5000/sqls"> Convertidor SQL</a></li>
+                            <li><a href="http://127.0.0.1:5000/limpieza"> Limpieza de datos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                
+            </nav>
+
+        
+        </div>
+        <nav class="navegacion">
+            <div>
+                <ul class="menu2">
+                    <li><a href="http://localhost/sist_v1/login/login/login.php"> Cerrar sesión</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+    <section class="zona1 box box4 shadow4">
+    <div class="icon-container">
+        <div> <img class="icon1" src="https://cdn-icons-png.flaticon.com/128/8243/8243073.png"> </div>
+        <div> <img class="icon1" src="https://cdn-icons-png.flaticon.com/512/5049/5049858.png"> </div>
+        <div> <img class="icon1" src="https://cdn-icons-png.flaticon.com/512/8945/8945438.png"> </div>
+    </div>
+    <br>
+    <br>
+    
+    <form action="/ejecutar_script/segundo_script" method="get" >
+        <input type="submit" value="Combertidor"class="sqlbton">
+    </form>
+    <button class="sqlbton1" onclick="ejecutarScript3()"><img class="icon2" src="https://cdn-icons-png.flaticon.com/512/1753/1753659.png">
+    </button>
+
+    
+    <p><strong>IMPORTANTE:</strong>Despues de precionar el botón deves esperar unos segundos a que se ejecute no desesperes.<br>
+    Se abrira una pestaña secundaria de Python</p>
+</section>
+</body>
+</html>
+
+   

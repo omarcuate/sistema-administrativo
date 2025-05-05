@@ -1,0 +1,50 @@
+      /* Estilos para el cuerpo */
+      body {
+        margin-left: 200px; /* Ajusta el margen izquierdo para dejar espacio para la barra de navegación */
+        background-color: #f4f4f4;
+        font-family: Arial, sans-serif;
+        padding-top: 40px; /* Agregamos espacio para el botón de salir y la info del usuario */
+        position: relative; 
+        
+    }
+
+    /* Estilos para el cuadro de contenido */
+    .content-box {
+        margin: 20px; /* Margen alrededor del contenido */
+        padding: 20px; /* Espaciado interno */
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para efecto de elevación */
+    }
+
+    h2 {
+        text-align: center;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    textarea {
+        width: 80%;
+        height: 200px;
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        padding: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 14px;
+        resize: none;
+    }
+    input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+    }
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <title>DAVEL</title>
+    
+</head>
+<body class="loading">
+    <div id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <script>
+        // Redireccionar automáticamente después de 3 segundos
+        setTimeout(function() {
+            window.location.href = "login/index.php";
+        }, 3000);
+        
+        // Remover la clase 'loading' cuando la página está completamente cargada
+        window.addEventListener('load', function() {
+            document.body.classList.remove('loading');
+        });
+    </script>
+</body>
+</html>

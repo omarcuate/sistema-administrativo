@@ -1,0 +1,84 @@
+
+    /* Estilos para la barra de navegación */
+    nav {
+        width: 200px; /* Ancho deseado para la sección de navegación */
+        background-color: #8a2035;
+        color: #fff;
+        position: fixed; /* Fija la posición para que no se desplace al hacer scroll */
+        top: 0;
+        bottom: 0;
+        left: 0;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li {
+        padding: 10px;
+    }
+   
+li a{
+    text-decoration: none;
+    color: #fff;
+    text-align: justify;
+}
+ion-icon{
+    
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+    /* Estilos para el cuerpo */
+    body {
+        margin-left: 200px; /* Ajusta el margen izquierdo para dejar espacio para la barra de navegación */
+        background-color: #f4f4f4;
+        font-family: Arial, sans-serif;
+        padding-top: 40px; /* Agregamos espacio para el botón de salir y la info del usuario */
+        position: relative; 
+        
+    }
+
+    /* Estilos para el cuadro de contenido */
+    .content-box {
+        margin: 20px; /* Margen alrededor del contenido */
+        padding: 20px; /* Espaciado interno */
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para efecto de elevación */
+    }
+
+    /* Estilos para el botón de salir y la información del usuario */
+    .user-info {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        color: #333;
+        box-sizing: border-box;
+    }
+
+    .user-info button {
+        margin-left: 10px;
+    }
+    .logout-button {
+        background-color: #BC955B;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        margin: 10px;
+        margin-top: -10px;
+        
+}
+    .logout-button:hover{
+        background-color: #8a2035;
+    }

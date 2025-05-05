@@ -1,0 +1,41 @@
+.graficas {
+    display: flex; /* Hace que los elementos hijos se coloquen en línea */
+}
+
+.highcharts-figure {
+    flex: 1; /* Hace que cada figura ocupe el mismo espacio */
+    margin: 0 10px; /* Añade un poco de espacio entre las figuras */
+width: 30px;
+}
+
+.paginacion {
+	margin:20px 0;
+}
+
+.paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+
+.paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginacion ul li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	background:#8a2036;
+	text-decoration: none;
+    border-radius: 10px;
+}
+
+.paginacion ul li a:hover {
+	background:#BC955B;
+}
+
+.paginacion ul li .active {
+	background:#8a2036;
+	font-weight:bold;
+}

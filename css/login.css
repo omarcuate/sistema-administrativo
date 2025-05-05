@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100%;
+  }
+  
+  .form-register {
+    width: 400px;
+    background:#EAEDED;
+    padding: 30px;
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 4px;
+    font-family: Verdana;
+    color: #BC955B;
+    text-align: center;
+    border-radius:5px ;
+  }
+  
+  
+  .form-register h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #F8F9F9;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px #e3eaf0a7;
+    font-family: Verdana;
+    font-size: 18px;
+    color:#BC955B;
+    text-align: center;
+    border-radius:8px;
+
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color:#BC955B;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 95%;
+    background: #8a2035;
+    padding: 12px;
+    font-family: Verdana;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border: 0ch;
+    border-radius:5px;
+  }
+
+  .botons:hover {
+    background-color:#BC955B;
+  }
+
+
+  .logo {
+     width: 80%;
+     margin: 36px 0;
+     margin-top: 0ch;
+
+  }
+  .logo2 {
+    width: 20%;
+    margin: 10px 0;
+ }
+
+ label {
+  display: block; /* Hace que cada label ocupe una línea completa */
+  margin-bottom: 10px; /* Agrega espacio entre cada label y el campo de entrada */
+  font-weight: bold; /* Hace que el texto del label sea más llamativo */
+  color: #333; /* Color de texto */
+  font-family: Verdana;
+}
+

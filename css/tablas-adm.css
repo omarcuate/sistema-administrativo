@@ -1,0 +1,172 @@
+.dashboard-button {
+    width: 225px;
+    height: 120px;
+    /*Aumentamoslaalturaparaacomodareltítulo*/border-radius: 10px;
+    border: none;
+    color: white;
+    /*Colordelícono*/font-size: 24px;
+    cursor: pointer;
+    margin: 20px;
+    display: inline-block;
+    /*Paraqueesténenlínea*/text-align: center;
+    /*Centraelcontenidohorizontalmente*/transition: transform 0.3s ease, background-color 0.3s ease;
+   
+    text-decoration: none;
+  }
+
+  .editarrr{
+    text-decoration: none;
+
+  }
+
+  .dashboard-button:hover {
+    transform: scale(1.1); /* Hace que el botón se haga un 10% más grande al pasar el mouse */
+  }
+
+  .analytics-button {
+    background-image: linear-gradient(to right, #16d11d, #45a049); /* Color degradado para analytics */
+  }
+
+  .calendar-button {
+    background-image: linear-gradient(to right, #2196F3, #1e88e5); /* Color degradado para calendar */
+  }
+
+  .messages-button {
+    text-decoration: none;
+    background-image: linear-gradient(to right, #FF5722, #e64a19); /* Color degradado para messages */
+  }
+
+  .new-button {
+    background-image: linear-gradient(to right, #9C27B0, #8e24aa); /* Color degradado para el nuevo botón */
+  }
+
+  .button-title {
+    font-size: 16px;
+    margin-top: 5px; /* Espacio entre el ícono y el título */
+    text-decoration: none;
+  }
+
+  #message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+  }
+
+
+  /* Estyle del modal que abre al presionar cargar tabla */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+   
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    border-radius: 10px;
+   margin-top: 15px;
+    
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(253, 1, 1);
+    text-decoration: none;
+    cursor: pointer;
+   }
+
+
+   form {
+   
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    display: flex;
+    flex-direction: column;
+   
+}
+.custom-file-upload {
+    width: 90%;
+    height: 20px;
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin: 10px;
+    text-align: center;
+  
+}
+.custom-file-upload ion-icon {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+#sqlFile {
+    display: none;
+}
+#fileName {
+    margin-bottom: 20px;
+}
+.file{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ 
+}
+#tableName {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ 
+}
+
+.subir {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#response {
+    margin-top: 20px;
+}
+
+.nuve {
+  font-size: 40px;
+}
+
+a.button-title{
+  text-decoration: none;
+}
+

@@ -1,0 +1,87 @@
+.icon-container {
+    margin: auto;
+    padding: 1ch;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap; /* Evita que los elementos se desplacen a la siguiente línea */
+}
+
+.icon-container div {
+    display: inline-block;
+    margin-right: 10px; /* Espacio entre las imágenes (ajusta según sea necesario) */
+}
+
+.icon1 {
+    width: 70px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: 70px;
+}
+/* buscador */
+.formulario {
+    text-align: center;
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto; /* Para centrar el formulario */
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+
+#termino {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    margin-left: 15%;
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #BC955B;
+    color: #fff;
+    border: 1px solid #BC955B;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+
+#autocomplete-results {
+    margin-top: 10px;
+}
+
+
+.paginacion {
+	margin:20px 0;
+}
+
+.paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+
+.paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginacion ul li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	background:#024959;
+	text-decoration: none;
+}
+
+.paginacion ul li a:hover {
+	background:#037E8C;
+}
+
+.paginacion ul li .active {
+	background:#037E8C;
+	font-weight:bold;
+}
